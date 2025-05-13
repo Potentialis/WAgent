@@ -1,0 +1,12 @@
+[project]
+name = "wagent"
+version = "0.1.0"
+description = "AI agent for WhastApp"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dspy>=2.6.23",
+    "evolutionapi>=0.1.1",
+    "fastapi[standard]>=0.115.12",
+    "mlflow>=2.22.0",
+]
